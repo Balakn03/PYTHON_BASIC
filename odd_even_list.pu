@@ -1,0 +1,12 @@
+inp=input("Enter the list : ")
+lst=inp.split()
+lst=[int(i) for i in lst]
+e=[]
+o=[]
+for i in lst:
+    if(i%2==0):
+        e.append(i)
+    else:
+        o.append(i)
+print(f"Even list = {e}")
+print(f"Odd list = {o}")
